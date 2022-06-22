@@ -1,3 +1,5 @@
+CXXFLAGS += -O1
+
 all: test
 
 test: main.cpp
