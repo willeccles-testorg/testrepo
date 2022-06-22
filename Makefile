@@ -1,7 +1,7 @@
 all: test
 
-test: main.c
-	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -o $@ $<
+test: main.cpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) -o $@ $<
 
 clean:
 	$(RM) test
