@@ -13,6 +13,7 @@ void (*volatile p1)(void) = f1;
 void (*volatile p2)(void) = f2;
 
 int main(int argc, char** argv) {
+  // this is a comment
   p1();
   return 0;
 }
